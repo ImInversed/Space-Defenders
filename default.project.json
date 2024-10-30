@@ -1,0 +1,43 @@
+{
+  "name": "Space Defenders",
+  "tree": {
+    "$className": "DataModel",
+    "Players": {
+      "$properties": {
+        "CharacterAutoLoads": false
+      }
+    },
+
+    "ReplicatedStorage": {
+      "Shared": {
+        "$path": "src/shared"
+      },
+      "Packages": {
+        "$path": "Packages"
+      },
+      "Client": {
+        "$path": "src/client"
+      },
+      "Assets": {
+        "$path": "assets/assets.rbxm"
+      }
+    },
+
+    "ServerScriptService": {
+      "Server": {
+        "$path": "src/server"
+      }
+    },
+
+    "StarterPlayer": {
+      "$properties": {
+        "EnableMouseLockOption": true
+      },
+      "StarterPlayerScripts": {
+        "game": {
+          "$path": "src/client/game.client.luau"
+        }
+      }
+    }
+  }
+}
